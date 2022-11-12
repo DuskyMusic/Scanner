@@ -57,7 +57,7 @@ async def stats(_, message: Message):
         status += f"**┈➤ Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ:** `{str(pyrover)}`\n✦"
         status += f"**┈➤ Uᴘᴛɪᴍᴇ:** `{str(botuptime)}`\n"
 
-        img = "https://telegra.ph/file/a0f299ae4eba53370ce8b.mp4"
+        img = "https://telegra.ph/file/2a62072e1168b2be2e080.jpg"
         await message.reply_animation(
             img,
             caption = status
