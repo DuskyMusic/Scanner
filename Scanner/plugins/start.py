@@ -42,7 +42,7 @@ Commands For 𓆩●⃝ 𝘿𝙐𝙎𝙆𝙔✘𝙎𝙔𝙎𝙏𝙀𝙈 ●⃝�
             [
                 [
                     InlineKeyboardButton(
-                        "🛡 sᴜᴘᴘᴏʀᴛ 🛡", url=f"https://t.me/{SUPPORT_CHAT}"),
+                        "📨 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
                     InlineKeyboardButton(
                         "✚ ᴀᴅᴅ ᴍᴇ ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],
