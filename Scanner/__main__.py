@@ -15,16 +15,16 @@ async def load_start():
     LOGGER.info(f"LOG CHANNELS: {int(LOG_CHANNEL_ID)}")
     try:
         await pbot.send_message(
-            int(LOG_CHANNEL_ID), f"**Pyrogram Client Started Successfully !!**\nCurrent Gbanned Users: `{count}`"
+            int(LOG_CHANNEL_ID), f"**𓆩●⃝ 𝘿𝙐𝙎𝙆𝙔✘𝙎𝙔𝙎𝙏𝙀𝙈 ●⃝𓆪 Client Started Successfully !!**\nCurrent Gbanned Users: `{count}`"
         )
-        LOGGER.info("[INFO]: PYROGRAM BOT STARTED")
+        LOGGER.info("[INFO]: 𓆩●⃝ 𝘿𝙐𝙎𝙆𝙔✘𝙎𝙔𝙎𝙏𝙀𝙈 ●⃝𓆪 STARTED")
     except Exception as e:
         LOGGER.info(f"Bot wasn't able to semd message in your log channel.\n\nERROR: {e}")
     try:
         await ubot.send_message(
             int(LOG_CHANNEL_ID), "**Assistant Started Successfully !!**"
         )
-        LOGGER.info("[INFO]: PYROGRAM UserBOT STARTED")
+        LOGGER.info("[INFO]: 𓆩●⃝ 𝘿𝙐𝙎𝙆𝙔✘𝙎𝙔𝙎𝙏𝙀𝙈 ●⃝𓆪 USERBOT STARTED")
     except Exception as e:
         LOGGER.info(f"UserBot wasn't able to semd message in your log channel.\n\nERROR: {e}")
     
