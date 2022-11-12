@@ -27,14 +27,16 @@ async def start_(client: Client, message: Message):
 𓆩●⃝ 𝘿𝙐𝙎𝙆𝙔✘𝙎𝙔𝙎𝙏𝙀𝙈 ●⃝𓆪 Scanner, Use Me To GBAN User In Multiple Bots At The Same Time.
 
 Usage:
-    /start
-    /scan -id (id) -r (reason)  -p (proof link)
-    /revert -id (id)
-    /gscan (reason)
-    /grevert
-    /stats
-    /ping
-    /sudos
+Commands For 𓆩●⃝ 𝘿𝙐𝙎𝙆𝙔✘𝙎𝙔𝙎𝙏𝙀𝙈 ●⃝𓆪
+
+/start
+/scan -id (id) -r (reason) -p (proof link)
+/revert -id (id)
+/gscan (reason)
+/grevert
+/stats
+/ping
+/sudos
 """,
     reply_markup=InlineKeyboardMarkup(
             [
