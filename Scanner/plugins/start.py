@@ -24,7 +24,7 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""ᴡᴇʟᴄᴏᴍᴇ : {message.from_user.mention()}
 
-𓆩●⃝ 𝘿𝙐𝙎𝙆𝙔✘𝙎𝙔𝙎𝙏𝙀𝙈 ●⃝𓆪 a scanner, Use Me to GBAN User in Miltiple Bots at The Same Time.
+𓆩●⃝ 𝘿𝙐𝙎𝙆𝙔✘𝙎𝙔𝙎𝙏𝙀𝙈 ●⃝𓆪 Scanner, Use Me To GBAN User In Multiple Bots At The Same Time.
 
 Usage:
     /start
@@ -40,9 +40,9 @@ Usage:
             [
                 [
                     InlineKeyboardButton(
-                        "🛡 ʜᴇʟᴘ 🛡", url=f"https://t.me/{SUPPORT_CHAT}"),
+                        "🛡 sᴜᴘᴘᴏʀᴛ 🛡", url=f"https://t.me/{SUPPORT_CHAT}"),
                     InlineKeyboardButton(
-                        "✚ ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴀᴅᴅ ᴍᴇ ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "✚ ᴀᴅᴅ ᴍᴇ ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],
            ]
         ),
