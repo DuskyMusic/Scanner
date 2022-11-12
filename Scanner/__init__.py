@@ -23,7 +23,7 @@ logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLeve
 
 LOGGER = logging.getLogger('[Scanner]')
 LOGGER.info("Scanner is starting. | Built by SOME1HING. | Licensed under GPLv3.")
-LOGGER.info("Handled by: github.com/SOME-1HING (t.me/SOME1HING)")
+LOGGER.info("Handled by: github.com/DuskyMusic (t.me/DuskyXSystem")
 
 pbot = Client("Scanner", API_ID, API_HASH, bot_token=BOT_TOKEN)
 ubot = Client("Client", api_id=API_ID, api_hash=API_HASH, session_string=SESSION_STRING)
