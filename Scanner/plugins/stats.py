@@ -57,14 +57,14 @@ async def stats(_, message: Message):
         status += f"**┈➤ Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ:** `{str(pyrover)}`\n✦"
         status += f"**┈➤ Uᴘᴛɪᴍᴇ:** `{str(botuptime)}`\n"
 
-        img = "https://telegra.ph/file/a7a69374fae636a629006.mp4"
+        img = "https://telegra.ph/file/a0f299ae4eba53370ce8b.mp4"
         await message.reply_animation(
             img,
             caption = status
             + "\n\n**「✪」Bᴏᴛ Sᴛᴀᴛɪsᴛɪᴄs「✪」**:\n\n✦"
             + f"**┈➤ Scanned Users:** `{num_gbanned_users()}`\n" 
 
-            + f"\n\n[「✦ ꜱᴜᴘᴘᴏʀᴛ ✦」](https://t.me/{SUPPORT_CHAT})\n"     
+            + f"\n\n[「✦ ꜱᴜᴘᴘᴏʀᴛ ✦」](https://t.me/{SUPPORT_CHAT})\n"
             parse_mode= enums.ParseMode.MARKDOWN,
         )
     else:
