@@ -22,7 +22,7 @@ logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
 LOGGER = logging.getLogger('[Scanner]')
-LOGGER.info("Scanner is starting. | Built by SOME1HING. | Licensed under GPLv3.")
+LOGGER.info("Scanner is starting. | Built by DuskyMusic. | Licensed under GPLv3.")
 LOGGER.info("Handled by: github.com/DuskyMusic (t.me/DuskyXSystem")
 
 pbot = Client("Scanner", API_ID, API_HASH, bot_token=BOT_TOKEN)
