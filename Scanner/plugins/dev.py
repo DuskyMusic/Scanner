@@ -41,7 +41,7 @@ async def sudolist(_, message: Message):
     m = await message.reply_text(
         "<code>Gathering intel..</code>", parse_mode= enums.ParseMode.HTML
     )
-    img = "https://telegra.ph/file/2a62072e1168b2be2e080.jpg"
+    img = "https://telegra.ph/file/a7a69374fae636a629006.mp4"
     true_dev = list(set(SUDO_USERS) - {OWNER_ID})
     reply = "<b>Sudo Users:</b>\n"
     for each_user in true_dev:
