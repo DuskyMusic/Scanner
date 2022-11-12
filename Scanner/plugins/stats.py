@@ -62,10 +62,10 @@ async def stats(_, message: Message):
             img,
             caption = status
             + "\n\n**「✪」Bᴏᴛ Sᴛᴀᴛɪsᴛɪᴄs「✪」**:\n\n✦"
-            + f"**┈➤ Scanned Users:** `{num_gbanned_users()}`\n✦" 
+            + f"**┈➤ Scanned Users:** `{num_gbanned_users()}`\n" 
 
-            + f"\n\n    [✦ ꜱᴜᴘᴘᴏʀᴛ ✦](https://t.me/{SUPPORT_CHAT})\n"
-            + " ┗━━✦❘༻           ༺❘✦━━┛",
+            + f"\n\n [✦ ꜱᴜᴘᴘᴏʀᴛ ✦](https://t.me/{SUPPORT_CHAT})\n"
+            + "┗━━✦❘༻           ༺❘✦━━┛",
             parse_mode= enums.ParseMode.MARKDOWN,
         )
     else:
